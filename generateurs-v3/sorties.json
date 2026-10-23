@@ -1,0 +1,75 @@
+{
+  "_defauts": {
+    "partitions": 3,
+    "config": {
+      "retention.ms": 604800000
+    }
+  },
+  "projets": {
+    "binge": [
+      "<grp>.binge.dlq",
+      "<grp>.binge.views.by-title",
+      "<grp>.binge.trending",
+      "<grp>.binge.alerts.qoe",
+      "<grp>.binge.sessions"
+    ],
+    "arena": [
+      "<grp>.arena.headshot",
+      "<grp>.arena.dlq",
+      "<grp>.arena.top.weapons",
+      "<grp>.arena.revenue",
+      "<grp>.arena.sessions"
+    ],
+    "cartflow": [
+      "<grp>.cartflow.alerts.stock",
+      "<grp>.cartflow.stock.levels",
+      "<grp>.cartflow.alerts.fraud",
+      "<grp>.cartflow.revenue.by-category",
+      "<grp>.cartflow.orders.confirmed",
+      "<grp>.cartflow.dlq"
+    ],
+    "forge": [
+      "<grp>.forge.dlq",
+      "<grp>.forge.scrap",
+      "<grp>.forge.top.by-atelier",
+      "<grp>.forge.value",
+      "<grp>.forge.alerts.silent"
+    ],
+    "relay": [
+      "<grp>.relay.dlq",
+      "<grp>.relay.viewability",
+      "<grp>.relay.top.by-geo",
+      "<grp>.relay.spend",
+      "<grp>.relay.alerts.clickbot"
+    ],
+    "dispatch": [
+      "<grp>.dispatch.dlq",
+      "<grp>.dispatch.demand.by-zone",
+      "<grp>.dispatch.surge",
+      "<grp>.dispatch.supply.by-zone",
+      "<grp>.dispatch.alerts.trips"
+    ],
+    "sentinel": [
+      "<grp>.sentinel.dlq",
+      "<grp>.sentinel.alerts.velocity",
+      "<grp>.sentinel.alerts.geo",
+      "<grp>.sentinel.alerts.amount",
+      "<grp>.sentinel.merchant.stats"
+    ],
+    "tempo": [
+      "<grp>.tempo.dlq",
+      "<grp>.tempo.skiprate",
+      "<grp>.tempo.top.by-country",
+      "<grp>.tempo.royalties",
+      "<grp>.tempo.alerts.fraud"
+    ],
+    "viral": [
+      "<grp>.viral.dlq",
+      "<grp>.viral.trends",
+      "<grp>.viral.alerts.viral",
+      "<grp>.viral.engagement.by-author",
+      "<grp>.viral.alerts.bots",
+      "<grp>.viral.moderation"
+    ]
+  }
+}
